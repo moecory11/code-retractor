@@ -1,4 +1,4 @@
-# code-retractor
+# code-refractor
 ## Updated
 For this project I updated the div tags to more approprite and functioning tags. I noticed while updating this project that a link on the page was not working properly and fixed the error. For more accessabilty I added detailed comments on the stylesheet. Throuhout working on this project I learned the importance of the use of more specific elements beyond div and the benefits of adhearing to accessability standards.  
 ## Installation
@@ -10,9 +10,8 @@ https://moecory11.github.io/code-retractor/
 https://github.com/moecory11/code-retractor/blob/main/assets/images/Screenshot.png?raw=true)
 
 ## Credits
-List your collaborators, if any, with links to their GitHub profiles.
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-If you followed tutorials, include links to those here as well.
+https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+This was the main source I refrenced when working on this readme.
 ## License
 MIT License
 
