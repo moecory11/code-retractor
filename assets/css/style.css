@@ -1,55 +1,58 @@
+/*sets entire containers sizing, border and margin*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/*set background color to #d9dcd6*/
 body {
     background-color: #d9dcd6;
 }
-
+/*set background color to #2a607c and color to #fffff*/
 .header {
     padding: 20px;
+    /*specifies a list of fonts to be used in order of priority */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*specifies how header is displayed and font size*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/*set text color*/
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/*sets position for container box, sets font and font size*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
+    /*specifies a list of fonts to be used in order of priority */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/*removes the bullet markers from list*/
 .header div ul {
     list-style-type: none;
 }
-
+/*sets position*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*sets color of text*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*set font size*/
 p {
     font-size: 16px;
 }
-
+/*sets the position and area displayed of background image*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +61,23 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/*sets space of margin and float direction in container*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/*sets space of margin and float direction in container*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/*sets size and display of container*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/**/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -82,35 +85,36 @@ p {
     float: right;
     width: 20%;
     height: 100%;
+    /*specifies a list of fonts to be used in order of priority */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*sets margin placement and text color*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*sets margin placement and text color*/
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*sets margin placement and text color*/
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/*sets margin placement and alignment of text*/
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*sets margin placement and alignment of text*/
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*sets margin placement and alignment of text*/
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -138,6 +142,7 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
+    /*specifies a list of fonts to be used in order of priority */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
@@ -147,6 +152,7 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
+    /*specifies a list of fonts to be used in order of priority */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
@@ -156,6 +162,7 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
+    /*specifies a list of fonts to be used in order of priority */
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
@@ -172,17 +179,17 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
-
+/*sets margin placement and font size*/
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*sets margin placement and font size*/
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*sets margin placement and font size*/
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -191,10 +198,11 @@ p {
 .footer {
     padding: 30px;
     clear: both;
+    /*specifies a list of fonts to be used in order of priority */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-
+/*set font size to 20px*/
 .footer h2 {
     font-size: 20px;
 }
